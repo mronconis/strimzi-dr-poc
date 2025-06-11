@@ -18,11 +18,3 @@ spec:
         tls: false
         authentication:
           type: scram-sha-512
-        configuration:
-          brokers:
-          - broker: 0
-            advertisedHost: streams-cluster-kafka-mirroring-0.kafka-live.svc.clusterset.local
-          - broker: 1
-            advertisedHost: streams-cluster-kafka-mirroring-1.kafka-live.svc.clusterset.local
-          - broker: 2
-            advertisedHost: streams-cluster-kafka-mirroring-2.kafka-live.svc.clusterset.local

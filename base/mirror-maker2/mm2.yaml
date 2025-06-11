@@ -61,7 +61,7 @@ spec:
         # Interval period to refresh consumer groups statuses (Default: 600)
         refresh.groups.interval.seconds: 60
     topicsPattern: "my-topic"
-    topicsExcludePattern: ".*\\.internal, mirrormaker2.*, __.*"
+    topicsExcludePattern: ".*\\.internal, mirrormaker2-cluster-.*, __.*"
     groupsPattern: "app-group"
   resources:
     requests:
