@@ -39,7 +39,7 @@ spec:
       sources:
         - kustomize:
           path: 'overlays/{{path}}'
-          repoURL: 'https://github.com/mronconis/strimzi-mirroring.git'
+          repoURL: 'https://github.com/mronconis/strimzi-dr-poc.git'
           targetRevision: main
       syncPolicy:
         syncOptions:
